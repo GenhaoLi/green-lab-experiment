@@ -34,8 +34,8 @@ class RunnerConfig:
     time_between_runs_in_ms:    int             = 1000
 
     # SUT SSH config (edit to your env)
-    SUT_HOST: str      = "glg1"      # IP or hostname
-    SUT_USER: str      = "ubuntu"           # SSH user
+    SUT_HOST: str      = "gl_greenest@145.108.225.3:42224"      # IP or hostname
+    SUT_USER: str      = "gl_greenest@glg1"           # SSH user
     SUT_KEY:  Path     = ROOT_DIR / "id_ed25519"  # or None to use agent/default
     SUT_WORKDIR: Path  = Path("~/greenestlab")        # where sut_trial.py + prompts live on SUT
     SUT_PYTHON: str    = "python3"
