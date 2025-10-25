@@ -1,4 +1,7 @@
 pandas
+datasets
+numpy
+tqdm
 psutil
 tabulate
 dill
